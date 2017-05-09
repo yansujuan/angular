@@ -1,0 +1,14 @@
+<div class='mark'><div class='screen-items'>
+	<div class='screen-list'>
+		<ul>
+			<li ng-click="toggle('all',0)">全部</li>
+			<li ng-repeat='x in list' ng-click="toggle(x.con,$index+1)">{{x.con}}</li>
+		</ul>
+	</div>
+
+	<div class='screen-list pro'>
+		<ul>
+			<li ng-click='scr()' ng-repeat='x in items | screen:flag'>{{x.b}}</li>
+		</ul>
+	</div>
+</div></div>

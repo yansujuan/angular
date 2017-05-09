@@ -1,0 +1,14 @@
+<section class="section">
+	<dl class='cont-dl'>
+			<dt><img ng-src="{{shop.imgSrc}}" alt="" /></dt>
+			<dd>
+				<p>{{shop.name}}</p>
+				<span>{{shop.addr}}</span>
+			</dd>
+		</dl>
+		<div class='intro'>
+		<div class="conImg" ng-repeat='m in shop.shop'>
+			<span><img ng-src="{{m.url}}" alt="" /></span>
+		</div>
+	</div>
+</section>

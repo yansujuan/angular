@@ -1,0 +1,26 @@
+<section class="section">
+	<div class='screen'>
+		<p  ng-click='screenClick()'>筛选服务<i  class="icon iconfont icon-tripple-up"></i></p>
+		<p class='line' ng-click='orderClick()'>综合排序<i  class="icon iconfont icon-tripple-up"></i></p>
+	</div>
+	<div>
+		<screen list='list' items='items' ng-hide='isScreen'></screen>
+		<order ng-hide="isOrder"></order>
+	</div>
+	<div class='intro'>
+		<div class='content' ng-repeat='x in itemInfo | orderBy:orderItem'>
+			<div class='co'>
+				<div class='cowords'>
+					<strong>{{x.title}}</strong>
+					<small>{{x.hospitalName}}</small>
+				</div>
+				<div class='purchase'>
+					<p class='money'>￥{{x.price}}</p>
+					<p class='pf'>{{x.pf}}</p>
+					<p class="installment">{{x.btn}}</p>
+				</div>
+			</div>
+			<div style='clear:both'></div>
+		</div>
+	</div>
+</section>

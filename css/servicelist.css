@@ -1,0 +1,79 @@
+/* line 1, servicelist.scss */
+.screen {
+  width: 100%;
+  line-height: .4rem;
+  height: .4rem;
+  background: #fff;
+  clear: both; }
+  /* line 7, servicelist.scss */
+  .screen p {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    color: #444;
+    font-size: .12rem; }
+    /* line 16, servicelist.scss */
+    .screen p i {
+      padding-left: .15rem;
+      box-sizing: border-box; }
+  /* line 21, servicelist.scss */
+  .screen .line {
+    border-right: none; }
+
+/* line 25, servicelist.scss */
+.mark {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: .9rem;
+  bottom: 0;
+  width: 100%; }
+
+/* line 33, servicelist.scss */
+.screen-items {
+  display: -webkit-flex;
+  height: 2rem; }
+  /* line 36, servicelist.scss */
+  .screen-items .screen-list {
+    flex: auto;
+    text-align: center; }
+    /* line 40, servicelist.scss */
+    .screen-items .screen-list ul li {
+      height: .4rem;
+      line-height: .4rem;
+      border-bottom: 1px solid #eee;
+      box-sizing: border-box;
+      font-size: .1rem;
+      color: #444; }
+    /* line 49, servicelist.scss */
+    .screen-items .screen-list:first-child {
+      background: #fff; }
+    /* line 53, servicelist.scss */
+    .screen-items .screen-list:last-child {
+      background: #e6e6e6; }
+
+/* line 58, servicelist.scss */
+.pro {
+  overflow: auto; }
+
+/* line 61, servicelist.scss */
+.order-items {
+  background: #fff;
+  text-align: center; }
+  /* line 64, servicelist.scss */
+  .order-items li {
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    line-height: .35rem;
+    height: .35rem;
+    color: #444;
+    font-size: .12rem; }
+
+/* line 73, servicelist.scss */
+.on {
+  color: lightskyblue !important;
+  background: #e6e6e6; }
+
+/*# sourceMappingURL=servicelist.css.map */

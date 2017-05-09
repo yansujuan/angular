@@ -1,0 +1,27 @@
+<section class="section">
+		<div class='cont' ng-repeat='m in shop.shop'>
+			<dl class='cont-dl'>
+				<dt><img src="{{shop.imgSrc}}" alt="" /></dt>
+				<dd>
+					<p>{{shop.name}}</p>
+					<span>{{shop.addr}}</span>
+				</dd>
+			</dl>
+			<div style='clear:both'></div>
+			<div class='intro'>
+				<div style='clear:both'></div>
+					<div class='content' ng-repeat='x in listInfo'>
+						<div class='co'>
+							<div class='cowords'>
+								<strong>{{x.title}}</strong>
+								<small>{{x.hospitalName}}</small>
+							</div>
+							<div class='purchase'>
+								<p class='money'>￥{{x.price}}</p>
+								<p class="installment">{{x.btn}}</p>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+</section>

@@ -1,0 +1,14 @@
+.conImg {
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+  box-sizing: border-box; }
+  .conImg span {
+    display: inline-block;
+    padding: 0 .1rem 0 .1rem;
+    box-sizing: border-box;
+    width: 3.2rem; }
+    .conImg span img {
+      width: 100%; }
+
+/*# sourceMappingURL=introductionimg.css.map */

@@ -1,0 +1,214 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: .16rem;
+  display: -webkit-flex;
+  flex-direction: column; }
+
+.header {
+  height: .48rem;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .1rem;
+  border-bottom: 1px solid #b2b2b2;
+  box-sizing: border-box;
+  background: #fff; }
+  .header a {
+    position: relative;
+    z-index: 10;
+    font-size: .16rem; }
+    .header a i {
+      color: #bfbfbf; }
+  .header .title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+    line-height: .48rem;
+    color: #8f8f8f; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll;
+  background: #f9f9f9; }
+
+.cont-dl {
+  padding: .1rem 0 .1rem .1rem;
+  border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  background: #fff;
+  height: .9rem; }
+  .cont-dl dt {
+    width: .9rem;
+    padding-right: .1rem;
+    float: left; }
+    .cont-dl dt img {
+      width: 100%; }
+  .cont-dl dd p {
+    color: #444;
+    font-size: .16rem;
+    padding-bottom: .15rem;
+    padding-top: .1rem;
+    box-sizing: border-box; }
+  .cont-dl dd span {
+    color: #999;
+    font-size: .12rem; }
+
+.intro {
+  margin-top: .1rem; }
+
+.content {
+  height: .8rem;
+  padding: .1rem;
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff; }
+
+.co {
+  clear: both;
+  overflow: hidden;
+  width: 100%; }
+  .co .cowords {
+    float: left;
+    overflow: hidden; }
+    .co .cowords strong {
+      display: block;
+      color: #444;
+      font-size: .14rem;
+      padding-bottom: .3rem;
+      box-sizing: border-box; }
+    .co .cowords small {
+      font-size: .12rem;
+      color: #999;
+      display: inline-block; }
+  .co .purchase {
+    float: right;
+    overflow: hidden; }
+    .co .purchase .money {
+      color: #FD6A3C;
+      box-sizing: border-box;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; }
+    .co .purchase .installment {
+      background: #FD6A3C;
+      color: #fff;
+      width: .9rem;
+      height: .3rem;
+      line-height: .3rem;
+      text-align: center; }
+
+.pf {
+  color: #FD6A3C;
+  font-size: .14rem;
+  text-align: right;
+  line-height: .2rem; }
+
+.footer {
+  height: .48rem;
+  display: -webkit-flex;
+  justify-content: space-between;
+  border-top: 1px solid #b2b2b2;
+  box-sizing: border-box; }
+  .footer span {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: .48rem; }
+    .footer span:last-child {
+      border-right: none; }
+    .footer span a {
+      color: #666666;
+      font-size: .1rem; }
+
+div[ui-view] {
+  display: -webkit-flex;
+  flex: 1;
+  flex-direction: column; }
+
+.conImg {
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+  box-sizing: border-box; }
+  .conImg span {
+    display: inline-block;
+    padding: 0 .1rem 0 .1rem;
+    box-sizing: border-box;
+    width: 3.2rem; }
+    .conImg span img {
+      width: 100%; }
+
+.screen {
+  width: 100%;
+  line-height: .4rem;
+  height: .4rem;
+  background: #fff;
+  clear: both; }
+  .screen p {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    color: #444;
+    font-size: .12rem; }
+    .screen p i {
+      padding-left: .15rem;
+      box-sizing: border-box; }
+  .screen .line {
+    border-right: none; }
+
+.mark {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: .9rem;
+  bottom: 0;
+  width: 100%; }
+
+.screen-items {
+  display: -webkit-flex;
+  height: 2rem; }
+  .screen-items .screen-list {
+    flex: auto;
+    text-align: center; }
+    .screen-items .screen-list ul li {
+      height: .4rem;
+      line-height: .4rem;
+      border-bottom: 1px solid #eee;
+      box-sizing: border-box;
+      font-size: .1rem;
+      color: #444; }
+    .screen-items .screen-list:first-child {
+      background: #fff; }
+    .screen-items .screen-list:last-child {
+      background: #e6e6e6; }
+
+.pro {
+  overflow: auto; }
+
+.order-items {
+  background: #fff;
+  text-align: center; }
+  .order-items li {
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    line-height: .35rem;
+    height: .35rem;
+    color: #444;
+    font-size: .12rem; }
+
+.on {
+  color: lightskyblue !important;
+  background: #e6e6e6; }
+
+/*# sourceMappingURL=index.css.map */
